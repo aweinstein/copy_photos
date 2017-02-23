@@ -20,11 +20,8 @@ def get_year_month(dob, pic_date):
 
 
 if __name__ == '__main__':
-    fn = 'DSCF2369.JPG'
-    pic_date = get_date(fn)
-    dob = arrow.get('2015-06-11')
-    year, month = get_year_month(dob, pic_date)
 
+    dob = arrow.get('2015-06-11')
     base_dir = '/path/to/destination/photos/'
     source_dir = '/path/to/source_dir'
 
